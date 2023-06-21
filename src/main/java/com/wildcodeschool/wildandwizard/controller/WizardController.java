@@ -38,7 +38,6 @@ public class WizardController {
             }
         }
         model.addAttribute("wizard", wizard);
-
         return "wizard";
     }
 
